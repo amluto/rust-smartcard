@@ -1,0 +1,6 @@
+[package]
+name = "smartcard"
+version = "0.1.0"
+authors = ["Andy Lutomirski <luto@kernel.org>"]
+
+[dependencies]
