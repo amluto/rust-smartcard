@@ -55,10 +55,8 @@ pub struct RequestAPDU<'a> {
     /// Indicates whether this is an extended APDU.
     pub extended: bool,
     /// Indicates the expected length of the reply, referred to as "Le" in the
-    /// spec.  According to ISO 7816-4, setting this to zero means that the
-    /// entire reply is is requested.  In general, users should consult the
-    /// documentation for the application protocol in use to determine what
-    /// value should go here.
+    /// spec.  In general, users should consult the documentation for the
+    /// application protocol in use to determine what value should go here.
     pub response_length: u32,
 }
 
